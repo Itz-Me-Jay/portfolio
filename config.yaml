@@ -38,7 +38,7 @@ params:
   profileMode:
     enabled: true
     title: "Valluri Sri Jayasurya"
-    imageUrl: "home/jay.jpg"
+    imageUrl: "home"
     subtitle: "Hi 👋, I'm Jay, a passionate and result-driven DevOps Engineer with 3.1+ years of hands-on experience in constructing CI/CD pipelines and deploying highly available and scalable infrastructure. My skills include Jenkins, Kubernetes, Docker, Terraform, Ansible, Linux, AWS. My interests are DevOps and cloud-native technologies. I have a strong focus on delivery and customer satisfaction, and I am always looking for ways to improve the efficiency of the systems I work on."
     imageWidth: 220
     imageHeight: 220
