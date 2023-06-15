@@ -1,0 +1,82 @@
+baseURL: "https://arkalim.org"
+languageCode: en-us
+title: Valluri Sri Jayasurya
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+
+params:
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+  env: production
+
+  #HomePage
+  profileMode:
+    enabled: true
+    title: "Valluri Sri Jayasurya"
+    imageUrl: "home/me.jpg"
+    subtitle: "Hi 👋, I'm Jay, a passionate and result-driven DevOps Engineer with 3.1+ years of hands-on experience in constructing CI/CD pipelines and deploying highly available and scalable infrastructure. My skills include Jenkins, Kubernetes, Docker, Terraform, Ansible, Linux, AWS. My interests are DevOps and cloud-native technologies. I have a strong focus on delivery and customer satisfaction, and I am always looking for ways to improve the efficiency of the systems I work on."
+    imageWidth: 220
+    imageHeight: 220
+    buttons:
+      - name: Resume
+        url: "https://drive.google.com/file/d/1F1M8jh3p_T9j9SWxhwJgL5XNd5cXYHLs/view?usp=sharing"
+
+  hideDescriptionInList: false
+
+  cover:
+    hiddenInSingle: false
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:v.srijayasurya@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/vallurisrijayasurya"
+    - name: "github"
+      url: "https://github.com/Itz-Me-Jay"
+    - name: "cv"
+      url: "https://drive.google.com/file/d/1F1M8jh3p_T9j9SWxhwJgL5XNd5cXYHLs/view?usp=sharing"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
