@@ -1,6 +1,6 @@
 ---
 title: "DevOps Engineer"
-description: "16Bit.ai (Toronto)"
+description: "Cognizant"
 dateString: Sep 2022 - Ongoing
 draft: false
 tags: ["Python", "Linux", "Kubernetes", "Docker", "GCP", "Automation", "FastAPI"]
